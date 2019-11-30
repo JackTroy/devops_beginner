@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                sh 'curl localhost:4000'
+                sh 'python --version'
             }
         }
     }
